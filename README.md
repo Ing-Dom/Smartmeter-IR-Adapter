@@ -6,7 +6,11 @@ Beim Ing-Dom Smartmeter-IR-Adapter handelt es sich um einen bi-direktionalen Ums
 
 Mit TTL-Pegel UART ist der Adapter dafür gedacht an Mikrocontrollerboards wie Arduino oder Raspberry PiPico aber auch an Raspberry GPIOs abgeschlossen zu werden.  Über UART-USB Adapter kann er auch über USB an diverse Endgeräte angeschlossen werden.
 Der Adapter setzt den über UART-Tx (Sendesignal) empfangenen Pegel in ein leuchten der IR-Sendediode um. Dabei wird invertiert, d.h. wenn UART-Tx HIGH ist, ist die IR-LED aus, ist das Signal LOW, leichtet die IR-LED.  Für den Fall dass die Sendediode vom Gerät nicht angesteuert wird ist ein schwacher PullUp-Transistor (10-50kOhm) vorgesehen, der das elektrische Tx-Signal auf Vcc zieht und damit dir IR-Led definiert ausschaltet.  
-Auf der Empfangsseite wird über einen IR-Phototransistor ein von der Gegenstelle empfangene IR-Pulse umgesetzt, auch hier wird invertiert: Im Ruhezustand (kein IR Signal empfangen) wird HIGH ausgegeben, wird ein IR-Signal empfangen, wird UART-Rx LOW angesteuert.  
+Auf der Empfangsseite wird über einen IR-Phototransistor ein von der Gegenstelle empfangene IR-Pulse umgesetzt, auch hier wird invertiert: Im Ruhezustand (kein IR Signal empfangen) wird HIGH ausgegeben, wird ein IR-Signal empfangen, wird UART-Rx LOW angesteuert. 
+
+![](doc/pics/komplett.jpg)
+
+Das Bild zeigt den aufgebauten Bausatz incl. optionalen RJ22 Anschlusskabel
 
 ## Technische Daten
 
