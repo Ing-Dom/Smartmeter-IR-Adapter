@@ -22,6 +22,11 @@ Diese Tabelle basiert auf User-Feedback (ohne Gewähr !)
 |  Iskra MT691   | hält magnetisch gut, Polarität egal |   funktioniert problemlos     |   nicht getestet      |
 ```
 
+## Bezugsquelle
+
+Die bestückte Platine, ein Bausatz mit Gehäuse und ein optionales RJ22 Anschlusskabel kann in [meinem Shop](https://muster.ing-dom.de/Zubehoer/Ing-Dom-SmartMeter-IR-Adapter.html) erworben werden.
+
+
 ## Technische Daten
 
 ### Elektronische Daten
