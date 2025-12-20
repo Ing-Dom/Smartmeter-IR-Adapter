@@ -12,6 +12,16 @@ Auf der Empfangsseite wird über einen IR-Phototransistor ein von der Gegenstell
 
 Das Bild zeigt den aufgebauten Bausatz incl. optionalen RJ22 Anschlusskabel
 
+## Kompatible Zähler
+Grundsätzlich sollten alle Zähler mit D0 bzw. SML Schnittstelle kompatibel sein. Es gibt jedoch unterschiedlich ausgeprägte Charakteristiken der Sende- und Empfangsdioden sowie die verschiedensten mechanischen Systeme zur Montage.  
+Diese Tabelle basiert auf User-Feedback (ohne Gewähr !)  
+
+```
+|  Zählertyp     |              Halterung              |   Empfangen von Zählerdaten   |   Senden zum Zähler   |
+|----------------+-------------------------------------+-------------------------------+.......................+
+|  Iskra MT691   | hält magnetisch gut, Polarität egal |   funktioniert problemlos     |   nicht getestet      |
+```
+
 ## Technische Daten
 
 ### Elektronische Daten
@@ -52,19 +62,20 @@ Die Platine wird mit allen notwendigen Bauteilen bestückt geliefert.
 Es muss nur noch ein Anschlusskabel oder Stecker angelötet werden.  
 Diese Anleitung bezieht sich auf das im Bausatz mitgelieferte Gehäuse sowie das optional bestellbare Anschlusskabel.
 
-1. Magnete einsetzen
-   Die mitgelieferten Rundmagnete müssen ins Gehäude gepresst werden. Auf eine gleiche Orietierung der Magnete sollte geachtet werden.  
+1. Magnete einsetzen  
+   Die mitgelieferten Rundmagnete müssen ins Gehäuse gepresst werden. Auf eine gleiche Orientierung der Magnete (Nord- und Südpol) sollte geachtet werden.  
    Da es auch Zähler gibt die als "Gegenstelle" für die Magente keine Metallplatte sondern auch Magnete haben, sollte vor dem Einsatz geprüft werden ob die Polarität eine Rolle spielt.  
    Zum Einsetzen empfiehlt sich ein handelsüblicher Phasenprüfer.  
     ![](doc/pics/Smartmeter-IR-Adapter_Assembly10.jpg)  
     ![](doc/pics/Smartmeter-IR-Adapter_Assembly11.jpg)  
 
-2. Mantel der Anschlussleitung ca. 2cm abisolieren, Einzeladern auf ca. 12mm kürzen, 5mm abisolieren und die Enden verdrillen und verzinnen
+2. Anschlussleitung vorbereiten  
+   Mantel der Anschlussleitung ca. 2cm abisolieren, Einzeladern auf ca. 12mm kürzen, 5mm abisolieren und die Enden verdrillen und verzinnen
    
    ![](doc/pics/Smartmeter-IR-Adapter_Assembly01.jpg)  
 
 
-2. Aderfarben am Stecker ermitteln und mittels der obigen Abbildung zuordnen (Achtung, Aderfarben können wechseln! Abbildung und Auflistung nur beispielhaft!)
+3. Aderfarben am Stecker ermitteln und mittels der obigen Abbildung zuordnen (Achtung, Aderfarben können wechseln! Abbildung und Auflistung nur beispielhaft!)
    
       1 = weiß = Vcc  
       2 = braun = Tx  
